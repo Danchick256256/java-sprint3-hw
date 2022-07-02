@@ -5,9 +5,11 @@ public class Subtask extends Task {
     }
 
     @Override
-    public void setStatus(Status status) {
+    public String setStatus(Status status) {
         super.setStatus(status);
+        return null;
     }
+
 
     @Override
     public String toString() {
